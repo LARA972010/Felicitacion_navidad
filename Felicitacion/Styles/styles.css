@@ -1,0 +1,286 @@
+body{
+    background-image: url(../Imagenes/fondo4.jpg);
+    background-repeat: no-repeat;
+    /*background-position-x: center;*/
+   overflow: hidden;
+    background-size: 1500px 1100px;
+
+}
+.arbol{
+    animation-name:arbol;
+    position: absolute;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+/*BOLAS DORADAS*/
+.bola{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    animation-name:bola_animada;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/*BOLAS MORADAS*/
+.bola1{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    animation-name:bola_animada1;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/*BOLAS ROSAS*/
+.bola2{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    animation-name:bola_animada1;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/*BOLAS ROJAS*/
+.bola3{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    animation-name:bola_animada1;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 10s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+/*ESTRELLA*/
+.estrella{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation-name:estrella;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 10s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    right: 1020px;
+}
+/*CAMPANA*/
+.lazo{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    animation-name:estrella;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    right: 1020px;
+}
+/*FELIZ*/
+.feliz{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    animation-name:feliz;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 19s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    left: 200px;
+}
+/*Trineo*/
+.trineo{
+    animation-name:trineo;
+    position: absolute;
+    animation-duration: 15s;
+    animation-fill-mode: forwards; 
+    animation-delay: 10s; 
+    opacity: 0;
+    animation-timing-function: ease-in;
+    left: -500px;
+    bottom: 10%;
+    width: 400px;
+}
+
+@keyframes trineo {
+    0% {
+        left: -500px;
+        bottom: 100%;
+        opacity: 100;
+        }
+        
+        15% {
+        bottom: 100%;
+        opacity: 100;
+        
+        }
+        
+        
+        30% {
+        bottom: 80%;
+        opacity: 100;
+        }
+        
+        50% {
+        bottom: 60%;
+        left: 500px;
+        opacity: 100;
+        }
+        
+        70% {
+        left: 590px;
+        opacity: 100;
+        bottom: 30%;
+        }
+        
+        100% {
+        left: 2500px;
+        bottom: 5%;
+        opacity: 100;
+        }
+        }
+
+
+
+/*POSICION DE BOOLAS EN EL ARBOL*/
+#bola1 {
+    bottom: 200px;
+    left: 150px;
+}
+#bola2 {
+    bottom: 150px;
+    left: 500px;
+}
+#bola3 {
+    bottom: 300px;
+    left: 400px;
+}
+#bola4 {
+    bottom: 350px;
+    left: 300px;
+}
+#bola5 {
+    bottom: 500px;
+    left: 450px;
+}
+#bola6 {
+    bottom: 550px;
+    left: 400px;
+}
+#bola7 {
+    bottom: 500px;
+    left: 350px;
+}
+
+#bola8 {
+    bottom: 140px;
+    left: 450px;
+}
+
+#bola9 {
+    bottom: 290px;
+    left: 250px;
+}
+
+#bola10 {
+    bottom: 30px;
+    left: 190px;
+}
+
+#bola11 {
+    bottom: 90px;
+    left: 200px;
+}
+#bola12 {
+    bottom:300px;
+    left: 200px;
+}
+#bola13 {
+    bottom:350px;
+    left: 500px;
+}
+
+#bola14 {
+    bottom:200px;
+    left: 400px;
+}
+#bola15 {
+    bottom:170px;
+    left: 200px;
+}
+#bola16 {
+    bottom:490px;
+    left: 290px;
+}
+#bola17 {
+    bottom:100px;
+    left: 300px;
+}
+#bola18 {
+    bottom:120px;
+    left: 600px;
+}
+#lazo{
+    bottom: 200px;
+    left: 250px;
+}
+#lazo1{
+    bottom: 400px;
+    left: 400px;
+}
+#feliz{
+    left: 600px;
+}
+
+
+
+
+
+@keyframes bola_animada{
+    100%{
+        opacity: 100;
+    }
+}
+@keyframes bola_animada1{
+    100%{
+        opacity: 100;
+    }
+}
+@keyframes bola_animada2{
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes arbol {
+    0% {
+        left: -800px;
+        
+    }
+    100% {
+        left: 50px;
+       
+    }
+}
+@keyframes estrella{
+    100%{
+        opacity: 100;
+    }
+}
+@keyframes feliz{
+    100%{
+        opacity: 100;
+    }
+}
